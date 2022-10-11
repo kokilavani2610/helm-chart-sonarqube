@@ -319,10 +319,10 @@ annotations: {}
 resources:
   limits:
     cpu: 800m
-    memory: 4Gi
+    memory: 2Gi
   requests:
     cpu: 400m
-    memory: 2Gi
+    memory: 1Gi
 
 persistence:
   enabled: false
@@ -341,7 +341,7 @@ persistence:
   ##
   storageClass:
   accessMode: ReadWriteOnce
-  size: 5Gi
+  size: 2Gi
   uid: 1000
 
   ## Specify extra volumes. Refer to ".spec.volumes" specification : https://kubernetes.io/fr/docs/concepts/storage/volumes/
@@ -423,7 +423,7 @@ postgresql:
   persistence:
     enabled: true
     accessMode: ReadWriteOnce
-    size: 20Gi
+    size: 2Gi
     storageClass:
   securityContext:
     # For standard Kubernetes deployment, set enabled=true
