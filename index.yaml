@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  Chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-14T13:25:41.9913632+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 12c7d11dd74e0b35da49439d56dad227187cf29204e02f456517efabb131428a
+    name: Chart
+    type: application
+    urls:
+    - https://github.com/kokilavani2610/helm-chart-sonarqube/Chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-14T13:25:41.9902487+05:30"
